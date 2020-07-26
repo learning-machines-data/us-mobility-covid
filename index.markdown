@@ -74,6 +74,7 @@ df_mobility_index = df_mobility_index.drop(columns = ['country_code', 'admin_lev
 ![Mobility Trend](images/us-mobility-trend.png)
 
 - Import county level spend data from Affinity Solutions
+
 ```python
 county_spending_url =  'https://raw.githubusercontent.com/Opportunitylab/EconomicTracker/main/data/Affinity%20-%20County%20-%20Daily.csv'
 df_county_spending = pd.read_csv(county_spending_url)
@@ -87,7 +88,8 @@ df_county_spending.countyfips = df_county_spending.countyfips.astype(str).str.zf
 df_county_spending = df_county_spending.rename(columns={'countyfips':'fips'})
 ```
 
-- Import unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level).
+- Import unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
+
 ```python
 
 ui_url = 'https://raw.githubusercontent.com/Opportunitylab/EconomicTracker/main/data/UI%20Claims%20-%20County%20-%20Weekly.csv'
@@ -114,7 +116,8 @@ m50 = m50.reset_index()
 - Linear Correlation between Consumer Spending and Mobility on County Level
 ![Correlation between Spend and Mobility](images/linear-correlation-spend-mobility.png)
 
-- Merge county spending data and mobility data and understand the correlation between spend and mobility at county level
+- Merge county spending data and mobility data and understand the correlation between spend and mobility at county level  
+
 ```python
 df_merged = pd.merge(left = m50, right = df_county_spending, on = ['fips', 'date'], how = 'outer')
 def get_county_state(val_dict,x):
@@ -133,6 +136,7 @@ df_mobility_spend_corr['loc'] = df_mobility_spend_corr['fips'].apply(lambda x: g
 df_mobility_spend_corr['Mob-Spend Corr'] = df_mobility_spend_corr['Mob-Spend Corr'].round(2)
 ```
 - Check reduction in spending and mobility before and after covid
+
 ```python
 target_cols = ['rolling_mean_mob','spend_all']
 covid_date = datetime.datetime.strptime('2020-03-15', '%Y-%m-%d')
