@@ -34,6 +34,9 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 - County Level spending data
 - Unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
 	
+	
+<div class="page-break"></div>
+
 ## **Process Flow**
 - Import county level covid data
 
@@ -176,6 +179,9 @@ df_mob_spend_red = df_mob_spend_red[df_mob_spend_red['Pct_Red_rolling_mean_mob']
 
 ![Reduction in Mobility and Spend](images/reduction-in-spend-and-mobility.png)
 
+<div class="page-break"></div>
+
 ## **Exploratory Data Analysis**
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/CovidStatsbyState?:language=en-GB&:display_count=y&publish=yes&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
 
 ## **Conclusion**
