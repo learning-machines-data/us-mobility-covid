@@ -34,34 +34,7 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 - County Level spending data
 - Unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
 	
-## **Exploratory Data Analysis**
-- Avg Mobility By States
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/AvgMobilityByStates?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Daily Mobility Trend
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/DailyMobilityTrend?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Daily Mobility Trend by Weekday/Weekend
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/DailyMobilityTrendbyWeekdayWeekend?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Median Mobility by Weekdays
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/MedianMobility?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Top Counties by Mobility
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/TopCountiesbyMobility?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Daily Spending Trend
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/DailySpendingTrend?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Avg Spend By States
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/AvgSpendByStates?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Daily Spend and Mobility
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/DailySpendandMobility?:language=en-GB&:retry=yes&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
-- Top Counties by Spend
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/TopCountiesbySpend?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '650' height = '450' scrolling='yes' ></iframe>    
-
+<div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div>
 
 ## **Data Preparation**
 - Import county level covid data
@@ -201,3 +174,8 @@ df_mob_spend_red = df_mob_spend_red[df_mob_spend_red['Pct_Red_rolling_mean_mob']
 ![Reduction in Mobility and Spend](images/reduction-in-spend-and-mobility.png)
 
 ## **Conclusion**
+
+--> width/hegiht
+--> autocaleing
+--> geographical by month
+
