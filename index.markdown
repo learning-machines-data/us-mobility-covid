@@ -40,7 +40,5 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 
 ## **Conclusion**
 
---> width/hegiht
---> autocaleing
---> geographical by month
+
 
