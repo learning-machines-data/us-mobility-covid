@@ -34,7 +34,7 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 - County Level spending data
 - Unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
 	
-<div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div>
+<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div></b></h2>
 
 ## **Data Preparation**
 - Import county level covid data
