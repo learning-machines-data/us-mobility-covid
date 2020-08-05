@@ -38,8 +38,6 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 
 <h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/data_prep/">Data Preparation</a></div></b></h2>
 
-
-
 ## **Conclusion**
 
 --> width/hegiht
