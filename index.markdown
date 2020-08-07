@@ -1,9 +1,11 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
+<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div></b></h2>
+
+<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/data_prep/">Data Preparation</a></div></b></h2>
 
 ## **Background**
 Covid-19 outbreak continues to spread rapidly and influence our daily work life. 
@@ -33,10 +35,6 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 - County Level mobility data
 - County Level spending data
 - Unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
-	
-<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div></b></h2>
-
-<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/data_prep/">Data Preparation</a></div></b></h2>
 
 ## **Conclusion**
 
