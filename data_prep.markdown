@@ -1,3 +1,9 @@
+---
+layout: page
+title: Data Preparation
+permalink: /data-prep/
+---
+
 - Import county level covid data
 
 ```python

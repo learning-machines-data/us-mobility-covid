@@ -1,3 +1,9 @@
+---
+layout: page
+title: Exploratory Data Analysis
+permalink: /eda/
+---
+
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/US-Covid-Mobility/AvgMobilityByStates?:language=en-GB&:display_count=y&:origin=viz_share_link?:embed=yes&:display_count=no&:showVizHome=no" width = '900' height = '550' scrolling='yes' ></iframe>    
 <br>
 <br>

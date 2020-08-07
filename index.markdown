@@ -3,11 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/eda/">Exploratory Data Analysis</a></div></b></h2>
 
-<h2><b><div class="trigger"><a class="page-link" href="/us-mobility-covid/data_prep/">Data Preparation</a></div></b></h2>
-
-## **Background**
 Covid-19 outbreak continues to spread rapidly and influence our daily work life. 
 Due to multiple goverment laws and many other factors intended to slow spread of virus causing chnages in consumer foot traffic and its spend behavior.
 This is causing demand in some category product increasing unexpectedly and at the same decreasing in others. 
@@ -35,8 +31,6 @@ To predict spend behavior based on covid impact and consumer mobility on county 
 - County Level mobility data
 - County Level spending data
 - Unemployment insurance claims data from the Department of Labor (national and state-level) and numerous individual state agencies (county-level)
-
-## **Conclusion**
 
 
 
