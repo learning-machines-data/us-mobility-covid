@@ -29,6 +29,7 @@ url: "https://learning-machines-data.github.io/" # the base hostname & protocol 
 
 # Build settings
 theme: "minima"
+
 plugins:
   - jekyll-feed
   
